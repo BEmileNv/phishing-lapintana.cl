@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad de la Información - Municipalidad de La Pintana</title>
+    
+    <style>
+        /* CSS para centrar y estilizar la imagen */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Centrado horizontal */
+            align-items: center;     /* Centrado vertical */
+            min-height: 100vh;        /* Ocupa toda la altura de la pantalla */
+            background-color: #f0f2f5; /* Un fondo gris muy suave para que resalte la tarjeta */
+            font-family: Arial, sans-serif; /* Tipografía limpia por defecto */
+        }
+
+        .contenedor-tarjeta {
+            display: block;
+            max-width: 90%;          /* No ocupa todo el ancho en pantallas grandes */
+            width: 1200px;           /* Ancho máximo de la tarjeta */
+            background-color: #ffffff; /* Fondo blanco de la tarjeta */
+            border-radius: 20px;     /* Bordes redondeados corporativos */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+            overflow: hidden;         /* Asegura que nada se salga de los bordes redondeados */
+        }
+
+        /* Estilo para la imagen misma para que sea responsiva */
+        .contenedor-tarjeta img {
+            display: block;
+            width: 100%;             /* Se adapta al ancho del contenedor */
+            height: auto;            /* Mantiene la proporción */
+            border-radius: 20px;     /* Bordes redondeados en la imagen */
+        }
+
+        /* Ajuste específico para móviles */
+        @media (max-width: 768px) {
+            .contenedor-tarjeta {
+                max-width: 95%;      /* Ocupa un poco más de ancho en móvil */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-tarjeta">
+        <img src="https://i.postimg.cc/mD8Z8f04/image-bb92bf.png" 
+             alt="Campaña de Concientización: Usted ha sido víctima de un ejercicio de Phishing - Municipalidad de La Pintana">
+    </div>
+
+</body>
+</html>
